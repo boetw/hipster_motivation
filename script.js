@@ -23,6 +23,8 @@ $(document).ready(function() {
 
 });
 $( window ).resize(function() {
+    var height = $(document).height();
+  var width = $(document).width();
     $(document.body).css("width", width);
   $(document.body).css("height", height);
   $(document.body).css("background", "url(http://unsplash.it/" + width + "/" + height + ") no-repeat");

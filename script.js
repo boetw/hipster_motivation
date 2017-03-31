@@ -10,7 +10,7 @@ $(document).ready(function() {
 
   $(document.body).css("width", width);
   $(document.body).css("height", height);
-  $(document.body).css("background", "url(http://unsplash.it/" + width + "/" + height + ") no-repeat");
+  $(document.body).css("background", "url(http://unsplash.it/" + width + "/" + height+1 + ") no-repeat");
   if (width < 10) {
     $("#arrow-up").css("border-bottom", width + "px solid black");
     $("#arrow-up").css("border-left", half + "px solid transparent");

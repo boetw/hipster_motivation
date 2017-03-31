@@ -85,7 +85,7 @@ blockquote {
     border-left: 400px solid transparent;
     border-right: 400px solid transparent;
     border-bottom: 800px solid black;
-    mix-blend-mode: overlay;
+    mix-blend-mode: difference;
     opacity: .8;
 }
 
@@ -101,7 +101,7 @@ blockquote {
     border-right: 300px solid transparent;
     border-bottom: 600px solid grey;
     background-repeat: repeat;
-    mix-blend-mode: screen;
+    mix-blend-mode: difference;
     opacity: 1;
 }
 

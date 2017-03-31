@@ -1,9 +1,13 @@
 $(document).ready(function() {
   var height = $(window).height();
-  console.log('height ' + height);
+  console.log('window height ' + height);
+    console.log('document height ' + $(document).height());
+
   var width = $(window).width();
   var half = width / 2;
-  console.log('width ' + width);
+  console.log('window width ' + width);
+    console.log('document width ' + $(document).width());
+
   $(document.body).css("width", width);
   $(document.body).css("height", height);
   $(document.body).css("background", "url(http://unsplash.it/" + width + "/" + height + ") no-repeat");

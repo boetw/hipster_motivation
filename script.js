@@ -7,7 +7,9 @@ $(document).ready(function() {
   var half = width / 2;
   console.log('window width ' + $(window).width());
     console.log('document width ' + $(document).width());
-
+  if((Math.floor(Math.random() * 20)) === 1){
+    $("#quote").html("do nothing<br>regret everything");
+  };
   $(document.body).css("width", width);
   $(document.body).css("height", height);
   $(document.body).css("background", "url(http://unsplash.it/" + width + "/" + height + ")");

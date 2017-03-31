@@ -107,7 +107,6 @@ blockquote {
 @media screen and (max-width: 1000px) {
   #arrow-up {
         mix-blend-mode: overlay;
-
 }
 }
 @media screen and (max-width: 600px) {

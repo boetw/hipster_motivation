@@ -104,7 +104,12 @@ blockquote {
     mix-blend-mode: difference;
     opacity: 1;
 }
+@media screen and (max-width: 1000px) {
+  #arrow-up {
+        mix-blend-mode: overlay;
 
+}
+}
 @media screen and (max-width: 600px) {
     .blend {
         font-size: 300%;

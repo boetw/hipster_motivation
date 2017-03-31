@@ -10,7 +10,11 @@ $(document).ready(function() {
 
   $(document.body).css("width", width);
   $(document.body).css("height", height);
-  $(document.body).css("background", "url(http://unsplash.it/" + width + "/" + height + ") cover no-repeat fixed");
+  $(document.body).css("background", "url(http://unsplash.it/" + width + "/" + height + ")");
+  $(document.body).css("background-size", "cover");
+  $(document.body).css("background-repeat", "no-repeat");
+  $(document.body).css("background-attachment", "fixed");
+
   if (width < 1000) {
     $("#arrow-up").css("border-bottom", width + "px solid black");
     $("#arrow-up").css("border-left", half + "px solid transparent");

@@ -20,9 +20,10 @@ $(document).ready(function() {
         $("#arrow-up").css("left", 20);
     $("#arrow").css("display", "none");
   }
+
+});
 $( window ).resize(function() {
     $(document.body).css("width", width);
   $(document.body).css("height", height);
   $(document.body).css("background", "url(http://unsplash.it/" + width + "/" + height + ") no-repeat");
   });
-});

@@ -1,6 +1,6 @@
 $(document).ready(function() {
   var height = $(document).height();
-  var backgroundH = height*(Math.floor(Math.random() * 10))
+  var backgroundH = height+(Math.floor(Math.random() * 10))
   console.log('window height ' + $(window).height());
     console.log('document height ' + $(document).height());
 

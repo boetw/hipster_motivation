@@ -16,7 +16,7 @@ $(document).ready(function() {
     $("#arrow-up").css("border-left", half + "px solid transparent");
     $("#arrow-up").css("border-right", half + "px solid transparent");
     $("#arrow-up").css("margin", 0);
-    $("#arrow-up").css("top", height / 10);
+    $("#arrow-up").css("top", 100);
     $("#arrow").css("display", "none");
   }
 });

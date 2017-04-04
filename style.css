@@ -59,7 +59,17 @@ blockquote {
     line-height: 1.1;
     mix-blend-mode: exclusion;
 }
-
+.name{
+  width: 100%;
+  display: block;
+    padding: 0px;
+  color: white;
+  opacity: 0.6;
+  text-align: center;
+  bottom: 1px;
+  position: absolute;
+  font-size: 20px;
+}
 .wrap {
     position: absolute;
     display: -webkit-box;
@@ -98,10 +108,8 @@ blockquote {
     z-index: 1;
     width: 0;
     height: 0;
-/*     border-image: url("http://imgsrc.hubblesite.org/hu/db/images/hs-2009-28-b-large_web.jpg") round;
-    border-image-outset: 0px; */
-    border-left: 300px solid transparent !important;
-    border-right: 300px solid transparent !important;
+    border-left: 300px solid transparent;
+    border-right: 300px solid transparent;
     border-bottom: 600px solid #f2ffff;
     background-repeat: repeat;
     mix-blend-mode: difference;

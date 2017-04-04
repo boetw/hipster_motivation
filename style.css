@@ -51,6 +51,7 @@ body {
     z-index: 2;
     mix-blend-mode: difference;
     opacity: 1;
+    text-shadow: 0 0 5px #000000;
 }
 
 blockquote {
@@ -85,7 +86,7 @@ blockquote {
     border-left: 400px solid transparent;
     border-right: 400px solid transparent;
     border-bottom: 800px solid black;
-    mix-blend-mode: difference;
+    mix-blend-mode: hard-light;
     opacity: .8;
 }
 
@@ -97,18 +98,22 @@ blockquote {
     z-index: 1;
     width: 0;
     height: 0;
-    border-left: 300px solid transparent;
-    border-right: 300px solid transparent;
-    border-bottom: 600px solid grey;
+/*     border-image: url("http://imgsrc.hubblesite.org/hu/db/images/hs-2009-28-b-large_web.jpg") round;
+    border-image-outset: 0px; */
+    border-left: 300px solid transparent !important;
+    border-right: 300px solid transparent !important;
+    border-bottom: 600px solid #f2ffff;
     background-repeat: repeat;
     mix-blend-mode: difference;
     opacity: 1;
 }
+
 @media screen and (max-width: 1000px) {
-  #arrow-up {
+    #arrow-up {
         mix-blend-mode: overlay;
+    }
 }
-}
+
 @media screen and (max-width: 600px) {
     .blend {
         font-size: 300%;
